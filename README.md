@@ -29,4 +29,33 @@ First, you will need 2 browser extentions:
 * [Custom Javascript](https://chrome.google.com/webstore/detail/custom-javascript-for-web/ddbjnfjiigjmcpcpkmhogomapikjbjdk) (For JavaScript)
 
 Once you have Stylish, you can grab the CSS easily [here](https://userstyles.org/styles/198183) and you should be set.
-For the JavaScript, you first want to go to speedrun.com. Once you are there, open up the extension and select the "New RegExp" option. Enter `https:\/\/www\.speedrun\.com\/.+` as the regexp. Then you can enter your JS code, which is just copy+pasting the code found in the `js/` folder. Once you are done, press save.
+
+For the JavaScript, you first want to go to speedrun.com. Once you are there, open up the extension and select the "New RegExp" option.
+
+![](https://media.discordapp.net/attachments/574267524380753942/813895467778834512/2021-02-23_230829.png?width=1216&height=684)
+
+Enter `https:\/\/www\.speedrun\.com\/.+` as the regexp. Then you can enter your JS code, which is just copy+pasting the code found in the `js/` folder. Once you are done, press save.
+
+If you only want a specific CSS theme as opposed to all of them which the above link provides, that is pretty easy to set up. Just open the stylish browser extension, press the three dots, and press "Create New Style"
+
+![](https://media.discordapp.net/attachments/729334525305552906/813902331305001020/2021-02-23_233657.png?width=1216&height=684)
+
+Once you click it, you will be taken to a page where you can make your own style. All you need to do from here is copy+paste the CSS from the themes you want.
+
+**IMPORTANT**: In order to avoid themes interfering with other parts of the site, each CSS file has a heading that looks like this:
+
+```css
+/*
+ * URL
+ *
+ * https://www.speedrun.com/runsawaitingverification
+ */
+```
+
+There are 2 different possible headings, `URL` or `REGEX`. If a heading says `URL`, you want to press the `specify` button underneath the code section, select `URL`, and paste in the given url (for example, `https://www.speedrun.com/runsawaitingverification`).
+
+![](https://media.discordapp.net/attachments/645245836888113155/813903376260661278/2021-02-23_234111.png?width=1216&height=684)
+
+If the heading says `REGEX`, you want to do the same but select the option `URLs matching the regexp`.
+
+**ALSO IMPORTANT**: The only exception to this is when the URL is `https://www.speedrun.com`. In this case you want to select `URLs starting with`, which is important as these settings are supposed to be site wide.
