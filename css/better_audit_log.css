@@ -1,0 +1,29 @@
+/*
+ * REGEX
+ *
+ * https:\/\/www\.speedrun\.com\/[_a-zA-Z0-9]*\/auditlog
+ */
+
+#resultListing div.mt-4 {
+	border: #ddd;
+	border-radius: 0.5em;
+	border-style: solid;
+	border-width: 0.1em;
+	flex-grow: 1;
+	margin-left: 0.7em;
+	padding-left: 1rem;
+	padding-top: 0.4em;
+	position: relative;
+	width: 22em;
+}
+
+/* Entry header (Date, Responsible user, etc.) */
+.mt-4 > p, .mt-4 > h2 {
+	color: #ddd !important;
+	margin-bottom: 0em;
+}
+
+/* Center align categories in the "edit game" settings */
+a.nav-item.nav-link {
+	text-align: center !important;
+}

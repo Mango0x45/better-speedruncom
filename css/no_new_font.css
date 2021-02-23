@@ -1,0 +1,32 @@
+/*
+ * URL
+ *
+ * https://www.speedrun.com
+ */
+
+/* Fix "Latest Runs" font */
+.widget-title {
+	text-transform: unset !important;
+	font-weight: unset !important;
+	font-family: sans-serif !important;
+}
+
+/* Remove "Latest Runs" header background */
+body.dark .widget-header {
+	background-color: unset !important;
+}
+
+/* Line break after "Latest Runs" */
+body.dark .widget-header {
+	padding: 0;
+	padding-top: 1rem;
+	border-bottom: 1px solid rgba(255,255,255,.13) !important;
+	padding-bottom: .5rem !important;
+	margin-bottom: 1rem !important
+}
+
+.widget-container {
+	border-top: 1px solid rgba(17, 17, 17, 0.7) !important;
+	padding-left: 1rem;
+	padding-right: 1rem;
+}

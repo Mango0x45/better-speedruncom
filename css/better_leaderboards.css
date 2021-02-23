@@ -1,0 +1,46 @@
+/*
+ * REGEX
+ *
+ * https:\/\/www\.speedrun\.com\/.+
+ */
+
+/* Left align leaderboard text and player names */
+#leaderboarddiv > table > tbody > tr > td,
+#leaderboarddiv > table > tbody > tr > th {
+	text-align: left;
+}
+
+/* Shift rank numbers to the right a bit */
+table.reverse-padding-sides.reverse-padding-bottom {
+	margin-left: -5px;
+	width: calc((100% + 2rem) - 1rem) !important;
+}
+
+/* Make the category list extend across the whole screen */
+.nav-link {
+	flex-grow: 1;
+}
+
+.nav-tabs {
+	text-align: center;
+}
+
+/*
+ * NOTE: This the following requires that you use the rounded tabs extension
+ * found in `js/round_tabs.js`, otherwise this will result in a blocky page
+ * with no rounded corners.
+ */
+
+/* Make the leaderboard and category select merge together nicer */
+.nav-tabs, .nav-link, .panel.panel-tabbed {
+	border-top-left-radius: unset !important;
+	border-top-right-radius: unset !important;
+}
+
+.first {
+	border-top-left-radius: .25rem !important;
+}
+
+.last {
+	border-top-right-radius: .25rem !important;
+}

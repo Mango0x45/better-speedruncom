@@ -1,0 +1,30 @@
+/*
+ * REGEX
+ *
+ * https:\/\/www\.speedrun\.com\/.+
+ */
+
+/* Make the sliders less massive */
+span.float-right.right {
+	font-size: .8rem !important;
+}
+
+.switch {
+	width: 26px !important;
+	height: 14px !important;
+}
+
+.switch .slider::before, .switch .slider::after {
+	width: 12px !important;
+	height: 12px !important;
+	bottom: 1px !important;
+}
+
+.switch input:checked+.slider:before {
+	transform: translateX(11px) !important;
+}
+
+/* Bigger options in user profiles */
+a.usermenu-item {
+	font-size: 14px !important;
+}

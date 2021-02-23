@@ -1,0 +1,25 @@
+/*
+ * REGEX
+ *
+ * https:\/\/www\.speedrun\.com\/.+
+ */
+
+/* 
+ * The height of the video player, you may need to adjust this based on your
+ * screen size.
+ */
+:root {
+	--video-height: 87vh;
+}
+
+/* Video height */
+iframe.youtube, iframe.twitch {
+	height: var(--video-height) !important;
+	width: 100% !important;
+}
+
+/* Workaround to get videos in forum posts back to a normal size */
+.forumpost p > iframe {
+	width: 770px !important;
+	height: 433px !important;
+}

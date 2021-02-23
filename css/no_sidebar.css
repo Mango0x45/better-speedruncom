@@ -1,0 +1,18 @@
+/*
+ * URL
+ *
+ * https://www.speedrun.com
+ */
+
+/* Remove the sidebar */
+#widget.col-auto {
+	display: none;
+}
+
+#centerwidget {
+	width: 100% !important;
+}
+
+#leaderboarddiv, .old-leaderboard {
+	max-width: 100% !important;
+}
