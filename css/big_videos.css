@@ -4,6 +4,8 @@
  * https:\/\/www\.speedrun\.com\/.+
  */
 
+/* NOTE: This REQUIRES `css/widescreen.css` to work properly. */
+
 /* 
  * The height of the video player, you may need to adjust this based on your
  * screen size.
