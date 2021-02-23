@@ -17,3 +17,4 @@ Currently included themes/extensions:
 | `css/better_audit_log.css`       | An attempt to make the audit log look a little bit nicer.                                                            |
 | `css/better_leaderboards.css`    | Make the leaderboards wider, display more players on one line, and category tabs with sensible placement.            |
 | `css/better_profile_headers.css` | Decrease the size of the sliders to better fit the profile page, and make the different tabs a little bigger.        |
+| `css/widescreen.css`             | Reduce the amount of unused space on the sides of the pages.                                                                                                                     |

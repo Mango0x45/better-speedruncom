@@ -1,0 +1,17 @@
+/*
+ * URL
+ *
+ * https://www.speedrun.com
+ */
+
+/* Edit this value to change how wide the pages get */
+:root {
+	--page-width: 85%;
+}
+
+/* Make the homepage/leaderboards/etc. wider. */
+@media (min-width: 1600px) {
+	.container {
+		max-width: var(--page-width);
+	}
+}
